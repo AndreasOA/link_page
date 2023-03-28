@@ -1,6 +1,6 @@
-var dayDiffCase = Math.floor((new Date(Date()).getTime() - new Date("02/09/2023").getTime()) / (1000 * 3600 * 24), 0); /* calc gap between last case */
-var dayDiffOp = Math.floor((new Date(Date()).getTime() - new Date("09/21/2021").getTime()) / (1000 * 3600 * 24), 0); /* calc gap between last operation */
-var dayDiffS2 = Math.floor((new Date(Date()).getTime() - new Date("03/22/2023").getTime()) / (1000 * 3600 * 24), 0); /* calc gap to s2 */
+var dayDiffCase = Math.floor((new Date(Date()).getTime() - new Date("02/09/2023").getTime()) / (1000 * 3600 * 24), 0);
+var dayDiffOp = Math.floor((new Date(Date()).getTime() - new Date("09/21/2021").getTime()) / (1000 * 3600 * 24), 0); 
+var dayDiffS2 = Math.floor((new Date(Date()).getTime() - new Date("03/22/2023").getTime()) / (1000 * 3600 * 24), 0); 
 
 function randombg(){
   var random= Math.floor(Math.random() * 6) + 0;
